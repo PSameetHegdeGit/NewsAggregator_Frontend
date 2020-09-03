@@ -6,6 +6,9 @@ import { FeedComponent } from './feed/feed.component';
 import { SettingsComponent } from './settings/settings.component';
 
 const routes: Routes = [
+  {path: '',
+   redirectTo: 'welcome',
+   pathMatch: 'full'},
   {
     path:'welcome',
     component: WelcomeComponent
